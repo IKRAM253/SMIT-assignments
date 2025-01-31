@@ -1,0 +1,71 @@
+.alphabet {
+    display: flex;
+    position: sticky; 
+    top: 0px;
+    background-color: rgb(8, 10, 10);
+    height: 150px;
+    width: 93%;
+    margin-top: 1%;
+    z-index: 1000;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(52, 241, 23);
+    font-size: 30px;
+    text-align: center;
+}
+
+.letter {
+    padding: 7px 3px;
+    border: 2px solid rgb(10, 10, 116);
+    background-color: rgb(11, 65, 158);
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 4px 3px 4px rgb(86, 255, 80);
+    height: 100px;
+    width: 50px;
+    padding-top: 3%;
+    position: relative;
+    z-index: 1001; }
+
+.letter:hover {
+    background-color: rgb(163, 18, 131);
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.word_with_image {
+    border: 7px solid green;
+    height: 150px;
+    width: 93%;
+    font-size: 150px;
+    font-weight: bolder;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 160px;
+    color: rgb(23, 18, 22);
+    word-spacing: 2%;
+    gap: 22%;
+    text-shadow: 6px 2px;
+    text-shadow: 4px 4px 10px rgb(255, 251, 0);
+    background-image: url(assets/th\ \(2\).jpg);
+    position: relative; 
+    z-index: 5; 
+}
+
+img {
+    width: 10%;
+    height: 100%;
+    padding-top: 0cm;
+    padding-bottom: 7px;
+    padding-left: 50%;
+    padding-right: 3px;
+    position: relative;
+}
+
+.word_with_image img {
+    object-fit: cover;
+}
